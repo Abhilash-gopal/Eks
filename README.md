@@ -74,6 +74,10 @@ eksctl create cluster --name abhi-cluster1 --region ap-south-1 --node-type t2.me
 # See Logs of a Pod
 `kubectl logs <pod-name>`
 
+# For editing the deployment.yaml file 
+`kubectl edit deployment <deployment-name>`
+
+
 # Step - 5 : After your practise, delete Cluster and other resources we have used in AWS Cloud to avoid billing #
 
 ```
